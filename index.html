@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+
+    <title>Bloomreach</title>
+  </head>
+  <body>
+    <!--- HEADER --->
+
+    <header>
+      <div class="header">
+        <div class="container">
+          <img class="logo" src="/assets/img/logo.png" />
+        </div>
+      </div>
+    </header>
+
+    <!--- TABS --->
+
+    <div class="navbar">
+      <div class="container">
+        <a class="selected" href="#">Customer properties</a>
+        <a href="#">Events</a>
+        <a href="#">Definitions</a>
+        <a href="#">Mapping</a>
+      </div>
+    </div>
+
+    <!--- CARDS --->
+    <div class="container">
+      <div class="card-container">
+        <div id="yellow" class="card">
+          <img src="/assets/img/Group.svg" />
+          <h3>Customers</h3>
+          <p>Import new customers with custom attributes.</p>
+        </div>
+        <div id="blue" class="card">
+          <img src="/assets/img/Group.svg" />
+          <h3>Catalogs</h3>
+          <p>Ut cursus maximus lorem eget egestas.</p>
+        </div>
+        <div id="pink" class="card">
+          <img class="group" src="/assets/img/Group.svg" />
+          <h3>Vouchers</h3>
+          <p>Nam et egestas mauris. Morbi varius, magna in viverra.</p>
+        </div>
+        <div id="yellow" class="card">
+          <img src="/assets/img/Group.svg" />
+          <h3>Emails</h3>
+          <p>Import new customer with cusotm attributes.</p>
+        </div>
+        <div id="blue" class="card">
+          <img src="/assets/img/Group.svg" />
+          <h3>Analyses</h3>
+          <p>Ut cursus maximus lorem eget egestas.</p>
+        </div>
+      </div>
+    </div>
+
+    <!--- FUNNEL STEPS --->
+
+    <div class="funnel">
+      <h3>Funnel Steps</h3>
+
+      <div class="funnel-add">
+        <a href="#"> + Funnel completion period</a>
+
+        <div class="funnel-dropdown">
+          <button class="dropdown-button" id="customDropdownButton">
+            <img src="/assets/img/Calendar-icon.png" />
+            Lifetime
+            <span class="arrow"></span>
+          </button>
+          <ul class="dropdown-menu" id="dropdownMenu">
+            <li><a href="#">Something</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <hr class="separator" />
+
+    <div class="funnel-step">
+      <p class="step-title">1. Step: first_session</p>
+
+      <div class="first-session">
+        <div id="footer-dropdown" class="dropdown">
+          <div class="funnel-dropdown">
+            <button class="dropdown-button" id="customDropdownButton">
+              first_session
+              <span class="arrow"></span>
+            </button>
+            <ul class="dropdown-menu" id="dropdownMenu">
+              <li><a href="#">Something</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="footer-dropdown" class="dropdown">
+          <div class="funnel-dropdown">
+            <button class="dropdown-button" id="customDropdownButton">
+              device
+              <span class="arrow"></span>
+            </button>
+            <ul class="dropdown-menu" id="dropdownMenu">
+              <li><a href="#">Something</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="footer-dropdown" class="dropdown">
+          <div class="funnel-dropdown">
+            <button class="dropdown-button" id="customDropdownButton">
+              equals
+              <span class="arrow"></span>
+            </button>
+            <ul class="dropdown-menu" id="dropdownMenu">
+              <li><a href="#">Something</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <label
+          >π
+          <input type="text" placeholder="mobile" />
+        </label>
+      </div>
+
+      <div class="second-session">
+        <p class="and">AND</p>
+
+        <div class="funnel-dropdown">
+          <button class="dropdown-button" id="customDropdownButton">
+            city
+            <span class="arrow"></span>
+          </button>
+          <ul class="dropdown-menu" id="dropdownMenu">
+            <li><a href="#">Something</a></li>
+          </ul>
+        </div>
+        <div class="funnel-dropdown">
+          <button class="dropdown-button" id="customDropdownButton">
+            equals
+            <span class="arrow"></span>
+          </button>
+          <ul class="dropdown-menu" id="dropdownMenu">
+            <li><a href="#">Something</a></li>
+          </ul>
+        </div>
+
+        <label
+          >π
+          <input type="text" placeholder="Bratislava" />
+        </label>
+      </div>
+      <a href="#" class="refine-more">Refine More</a>
+    </div>
+
+    <div class="button-addstep">
+      <button class="add">+ Add funnel step</button>
+    </div>
+  </body>
+</html>
